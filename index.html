@@ -4,23 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>My portfolio</title>
+    <link rel="stylesheet" href="index.css"><!--link to external file -->
 </head>
 <body>
-     <header>
-        <h1> Coder and wordsmith</h1>
+    <nav><!--navigation tab to navigate section-->
+        <ol>
+            <li><a href="#about-me">About Me</a></li><!--a tag is anchor used for links-->
+            <li><a href="#codding">Coding</a></li><!--li yag usedx for listing items-->
+            <li><a href="#wordsmith">Wordsmith</a></li>
+        </ol>
+    </nav>
+     <header><!--header section-->
+        <h1> <b> Hi , I am Shagun Kimothi</b></h1>
+        <h3>Coder and wordsmith </h3>
      </header>
+     <section id ="about-me "><!--section id uniquely identified to one html element-->
+        <h2 style="text-align: center;"><strong>about-me</strong></h2><!--inline style-->
+     <p style ="text-align: center;">Hello there i am Shagun Kimothi Btech first Year student at UPES.
+        I am passionate coder and wordsmith on a journery to expolore world of technology and language. I believe in the power of combining the logical precision of coding with the creative expression found in words.
+        My curiosity led me to dive into the fundamentals of HTML, CSS, and C language. As I navigate through this exciting coding journey, I'm not just learning to write lines of code; I'm crafting solutions and building the digital future.
+        Besides coding, you'll often find me immersed in the world of words. Poetry is my sanctuary, a place where language dances and emotions take shape. I am avident reader .Join me on this dual adventure as I share my coding endeavors and poetic musings.
+            Currently exploring fundamentals on Html, CSS,C laanguage. join me and navigate through.</p>
      <section id="codding">
-        <h2>Wellcome fellow beginerr!</h2>
-        <p> Hello i am embark on this exciting coding journey of mine .</p>
-        <p>Currently i am expoloring funadamental of HTML,CSS and C lsnguage .Join me and navigate through .</p>
-        <img src="C:\Users\HP\Pictures\Screenshots\coding environment.png" alt ="learning environment " width="50%">
+        <h2>Welcome fellow beginner !</h2>
+       
+         <p> Hello i am embark on this exciting coding journey of mine .</p>
+    
+        <img src="https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width ="20%" height="%50">
+        <div class="Programing language">
+        <h4> Programing languages.</h4>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" width="20%"- height="20%"alt ="c language ">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/C_Sharp_wordmark.svg/800px-C_Sharp_wordmark.svg.png" width="20%"height ="C++" alt="C ++ language">
+         <img src="data:image/jpeg;base64,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" width ="20%" height="20%">
+        </div>
      </section>
-     <section id ="wordmith">
+     <section id ="wordsmith">
       <h2> Wordsmith Section</h2>
       <p> Here is poetry i would like to share </p>
-      <P>
-         <h3><em stlye="color: crimson" Lakes></em></h3>
-         Take me to lakes where all the poets went to shine,</em><br>
+         <h3><strong>Lakes</strong></h3>
+         <p>
+          <em >Take me to lakes where all the poets went to shine,</em><br>
             Where verses sparkle on the water like stars align.<br>
             In the moonlit reflections, a poetic design,<br>
             A celestial dance, where words and ripples entwine.
@@ -44,8 +67,12 @@
             A lakeside santuary where poet sprit is strong 
       </P>
       
-     </section>
+     </section> 
+     <footer> 
+        <h1><b> Contact me</b></h1>
+        <p><h2>989742310</h2></p>
+        <p stle="text-align center">Copyright@shagun kimothi<s/p>
+     </footer>
      
 </body>
 </html>
-

@@ -1,0 +1,157 @@
+/* styles.css */
+
+/* Style the navigation bar */
+nav {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the navigation list */
+nav ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation list items */
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Style the navigation links */
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px; /* Set padding to create a box around the text */
+}
+
+/* Individual background colors for each navigation tab */
+nav li:nth-child(1) a {
+    background-color: #333; /* Background color for the first navigation tab */
+}
+
+nav li:nth-child(2) a {
+    background-color: #555; /* Background color for the second navigation tab */
+}
+
+nav li:nth-child(3) a {
+    background-color: #777; /* Background color for the third navigation tab */
+}
+header{
+    text-align: center;
+}
+h3{
+    font-style: italic;
+}
+
+body {
+    background-color: lightgrey;
+    border: 5px solid black; /* Set the border width and color */
+    margin: 10px; /* Optional: Add margin to create space between the border and content */
+}
+
+/* Add these styles to your existing CSS */
+
+#about-me {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    border: 2px dotted #333;
+    padding: 20px;
+    box-sizing: solid box; /* Ensures padding and border are included in the total width and height */
+}
+
+#about-me h2 {
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 18;
+    font-style: arial black;
+}
+
+#about-me p {
+    font-family: Arial;
+    font-size: 14px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#about-me img {
+    display: block;
+    margin: 20px auto;
+}
+    #codding {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box; /* Ensures padding and border are included in the total width and height */
+    }
+    
+    #codding h2 {
+        margin-bottom: 20px;
+    }
+    
+    #codding p {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+
+/* Add these styles to your existing CSS file */
+
+#coding .Programming-languages {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    margin-top: 20px; /* Add some space between the paragraph and the images */
+}
+
+#coding .Programming-languages img {
+    display: block;
+}
+#coding .Programming-languages img:nth-child(3) {
+    margin-top: + 20px; /* Adjust the value as needed to move the third image up */
+}
+
+/* Add these styles to your existing CSS file */
+
+#wordsmith {
+    text-align: center; 
+    border-style: solid;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 80px;
+    
+/* Center the entire section */
+}
+
+#wordsmith h2 {
+    margin-bottom: 20px;
+    font-size: 25px; /* Optional: Add some space below the heading */
+}
+
+#wordsmith p {
+    max-width: 600px; /* Optional: Set a maximum width for the paragraph */
+    margin: 0 auto;
+    font-size: 19px; /* Center the paragraph horizontally */
+}
+
+#wordsmith em {
+    font-style: italic; /* Apply italic style to <em> elements */
+}
+
+#wordsmith img {
+    display: block; /* Center the image horizontally */
+    margin: 20px auto; /* Adjust the margin as needed */
+}
+
+
+
